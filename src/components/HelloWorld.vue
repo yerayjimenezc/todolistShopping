@@ -28,8 +28,9 @@
             <v-card-text>No hay productos en tu lista 😱.</v-card-text>
           </v-col>
         </v-card>
-        <v-card elevation="10" class="d-flex align-center" v-for="(product, idx) in filterProducts" :product="product"
-          :key="idx">
+
+        <v-card elevation="10" class="d-flex align-center text-start" v-for="(product, idx) in filterProducts"
+          :product="product" :key="idx">
           <v-col cols="1">
             <v-btn elevation="0" icon @click="changeStatus(product.id)">
               <v-icon v-if="product.active" color="purple">mdi-check-all</v-icon>
@@ -51,6 +52,7 @@
           </v-col>
         </v-card>
       </v-col>
+
     </v-row>
     <v-row justify="center" align="center">
       <v-col cols="11" sm="9">
