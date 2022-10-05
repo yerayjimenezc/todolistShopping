@@ -144,7 +144,7 @@ export default {
 .wrapper-main {
   background-image: linear-gradient(to bottom,
       rgba(8, 8, 7, 0.7),
-      rgba(93, 0, 255, 0.7)), url('https://picsum.photos/1900/300/?blur=2');
+      rgba(93, 0, 255, 0.7)), url('https://picsum.photos/3000/300/?blur=2');
   background-size: auto 250px;
   padding-top: 0;
 }
